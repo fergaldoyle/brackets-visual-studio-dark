@@ -3,6 +3,12 @@
     "name": "visual-studio-dark",
     "description": "Visual Studio Dark theme for Brackets.io",
     "version": "1.0.0",
+    "author": "Fergal Doyle <fergal_doyle@yahoo.com>",
+    "homepage": "https://github.com/fergaldoyle/brackets-visual-studio-dark",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fergaldoyle/brackets-visual-studio-dark"
+    },
     "engines": {
         "brackets": ">=0.42.0"
     }
