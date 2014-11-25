@@ -1,0 +1,9 @@
+{
+    "title": "Visual Studio Dark",
+    "name": "visual-studio-dark",
+    "description": "Visual Studio Dark theme for Brackets.io",
+    "version": "1.0.0",
+    "engines": {
+        "brackets": ">=0.42.0"
+    }
+}
