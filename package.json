@@ -9,6 +9,12 @@
         "type": "git",
         "url": "https://github.com/fergaldoyle/brackets-visual-studio-dark"
     },
+     "keywords": [
+        "extension",
+        "brackets",
+        "dark",
+        "theme"
+    ],
     "engines": {
         "brackets": ">=0.42.0"
     }
