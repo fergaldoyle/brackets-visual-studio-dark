@@ -1,7 +1,8 @@
 @standardText: #DDDDDD;
 
 .CodeMirror {
-	// Editor
+    
+	// editor
 	.CodeMirror-linenumber,
 	.CodeMirror-line,
 	.CodeMirror-scroll,
@@ -9,6 +10,10 @@
 		color: @standardText;
 		background-color: #1E1E1E;
 	}
+    
+    .CodeMirror-linenumber {
+        color: #2B91AF;
+    }
 
 	.CodeMirror-selected {
 		background-color: #264F78;
@@ -40,12 +45,13 @@
 	.CodeMirror-activeline-background {
 		outline: 2px solid #dddddd;
 	}
-	// Common
+    
+	// common
 	[class^="cm-"] {
 		color: @standardText;
 		font-family: Consolas,'SourceCodePro-Medium',monaco,monospace;
 	}
-	// script
+
 	.cm-m-javascript {
 		color: #B4B4B4;
 	}
@@ -66,7 +72,8 @@
 	.cm-tag, .cm-meta, .cm-atom {
 		color: #569CD6;
 	}
-	// Markup
+    
+	// markup
 	.cm-m-xml.cm-string {
 		color: #C8C8C8;
 	}
@@ -78,6 +85,7 @@
 	.cm-m-xml.cm-bracket {
 		color: #808080;
 	}
+    
 	// style
 	.cm-m-css.cm-builtin,
 	.cm-m-css.cm-tag,
