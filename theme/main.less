@@ -9,12 +9,13 @@
 	.CodeMirror-gutters {
 		color: @standardText;
 		background-color: #1E1E1E;
+        font-family: Consolas,'SourceCodePro-Medium',monaco,monospace;
 	}
     
     .CodeMirror-linenumber {
         color: #2B91AF;
     }
-
+    
 	.CodeMirror-selected {
 		background-color: #264F78;
 	}
@@ -49,7 +50,6 @@
 	// common
 	[class^="cm-"] {
 		color: @standardText;
-		font-family: Consolas,'SourceCodePro-Medium',monaco,monospace;
 	}
 
 	.cm-m-javascript {
@@ -122,6 +122,11 @@
 	.cm-m-javascript.cm-property {
 		color: @standardText;
 	}
+    
+    // json properties
+    .cm-m-javascript.cm-string.cm-property {
+        color: #D69D85;
+    }
 
 	.cm-m-javascript.cm-number {
 		color: #B5CEA8;
