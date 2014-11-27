@@ -1,8 +1,8 @@
 {
     "title": "Visual Studio Dark",
     "name": "visual-studio-dark",
-    "description": "Visual Studio Dark theme for Brackets.io",
-    "version": "1.0.1",
+    "description": "Visual Studio Dark theme for Brackets.io. Has language specific syntax colouring by forcing addModeClass=true",
+    "version": "1.0.2",
     "author": "Fergal Doyle <fergal_doyle@yahoo.com>",
     "homepage": "https://github.com/fergaldoyle/brackets-visual-studio-dark",
     "repository": {

@@ -1,8 +1,22 @@
 @standardText: #DDDDDD;
 
+// editor
+.pane-header, .active-pane .pane-header {
+    color: @standardText;
+    background-color: #2D2D30;
+}
+
+// scroll bg 3E3E42
+// scroll bar 686868
+// scrol bar active A0A0A0
+
 .CodeMirror {
-    
-	// editor
+
+    .CodeMirror-activeline-background {
+        outline: 1px solid #282828!important; 
+        background: #0F0F0F;
+    }
+        
 	.CodeMirror-linenumber,
 	.CodeMirror-line,
 	.CodeMirror-scroll,
@@ -47,10 +61,13 @@
 		outline: 2px solid #dddddd;
 	}
     
+    // Languages
 	// common
-	[class^="cm-"] {
-		color: @standardText;
-	}
+    .cm-m-javascript, 
+    .cm-m-css,
+    .cm-m-xml {
+        color: @standardText;
+    }
 
 	.cm-m-javascript {
 		color: #B4B4B4;
@@ -73,6 +90,12 @@
 		color: #569CD6;
 	}
     
+    .cm-bracket,
+	.cm-m-xml.cm-bracket, 
+    .cm-m-css.cm-tag.cm-bracket {
+		color: #808080;
+	}
+    
 	// markup
 	.cm-m-xml.cm-string {
 		color: #C8C8C8;
@@ -80,10 +103,6 @@
 
 	.cm-m-xml.cm-atom {
 		color: #00A0A0;
-	}
-
-	.cm-m-xml.cm-bracket {
-		color: #808080;
 	}
     
 	// style
