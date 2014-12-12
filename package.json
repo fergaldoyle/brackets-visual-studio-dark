@@ -18,7 +18,7 @@
    "engines": {
       "brackets": ">=0.42.0"
    },
-   "entry": "main.js"
+   "entry": "main.js",
    "theme": {
       "dark": true
    }
