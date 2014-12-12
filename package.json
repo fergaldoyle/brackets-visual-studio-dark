@@ -17,5 +17,8 @@
     ],
     "engines": {
         "brackets": ">=0.42.0"
-    }
+    },
+     "theme": {
+        "dark": true
+     },
 }
