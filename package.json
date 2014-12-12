@@ -1,24 +1,25 @@
 {
-    "title": "Visual Studio Dark",
-    "name": "visual-studio-dark",
-    "description": "Visual Studio Dark theme for Brackets. Has language specific syntax colouring by forcing addModeClass=true. You must reload Brackets (f5) after installing this extension to enable language specific colouring",
-    "version": "1.0.4",
-    "author": "Fergal Doyle <fergal_doyle@yahoo.com>",
-    "homepage": "https://github.com/fergaldoyle/brackets-visual-studio-dark",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/fergaldoyle/brackets-visual-studio-dark"
-    },
-     "keywords": [
+   "title": "Visual Studio Dark",
+   "name": "visual-studio-dark",
+   "description": "Visual Studio Dark theme for Brackets. Has language specific syntax colouring by forcing addModeClass=true. You must reload Brackets (f5) after installing this extension to enable language specific colouring",
+   "version": "1.0.5",
+   "author": "Fergal Doyle <fergal_doyle@yahoo.com>",
+   "homepage": "https://github.com/fergaldoyle/brackets-visual-studio-dark",
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/fergaldoyle/brackets-visual-studio-dark"
+   },
+   "keywords": [
         "extension",
         "brackets",
         "dark",
         "theme"
     ],
-    "engines": {
-        "brackets": ">=0.42.0"
-    },
-     "theme": {
-        "dark": true
-     },
+   "engines": {
+      "brackets": ">=0.42.0"
+   },
+   "entry": "main.js"
+   "theme": {
+      "dark": true
+   }
 }
