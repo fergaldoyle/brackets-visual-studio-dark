@@ -64,8 +64,16 @@
 	// common
 	.cm-m-javascript,
 	.cm-m-css,
-	.cm-m-xml {
+	.cm-m-xml,
+	.cm-m-clike,
+	.cm-variable,
+	.cm-variable-2,
+	.cm-variable-3 {
 		color: @standardText;
+	}
+
+	.cm-operator {
+		color: #B4B4B4;
 	}
 
 	.cm-m-javascript {
@@ -82,6 +90,10 @@
 
 	.cm-attribute {
 		color: #9CDCFE;
+	}
+
+	.cm-number {
+		color: #B5CEA8;
 	}
 
 	.cm-def, .cm-keyword,
@@ -139,7 +151,7 @@
 	}
 	// json properties
 	.cm-m-javascript.cm-string.cm-property {
-		color: #D69D85;
+		color: #d7ba7d;
 	}
 
 	.cm-m-javascript.cm-number {
@@ -148,5 +160,13 @@
 
 	.cm-m-javascript.cm-string-2 {
 		color: #9A5334;
+	}
+	// php
+	.cm-m-clike.cm-builtin {
+		color: #569CD6;
+	}
+
+	.cm-m-clike.cm-variable-2 {
+		//	color: #d26bca;
 	}
 }
